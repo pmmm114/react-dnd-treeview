@@ -5,7 +5,7 @@ import { within, fireEvent } from "@storybook/testing-library";
 import { DndProvider, MultiBackend, getBackendOptions, Tree } from "~/index";
 import { pageFactory } from "~/stories/pageFactory";
 import * as argTypes from "~/stories/argTypes";
-import { CustomDragPreview } from "~/stories/examples/components/CustomDragPreview";
+import { CustomDragPreview } from "./CustomDragPreview";
 import { TreeProps, DragLayerMonitorProps } from "~/types";
 import { FileProperties } from "~/stories/types";
 import {
@@ -61,8 +61,8 @@ DynamicClassNameStory.storyName = "Dynamic class name";
 DynamicClassNameStory.parameters = {
   docs: {
     page: pageFactory({
-      jsId: "custom-drag-preview-js-s53fmx",
-      tsId: "custom-drag-preview-ts-ibvb07",
+      jsId: "dynamic-class-name-js-vskw43",
+      tsId: "dynamic-class-name-ts-thrng9",
     }),
   },
 };

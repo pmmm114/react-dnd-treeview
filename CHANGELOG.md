@@ -2,11 +2,15 @@
 
 ## 3.5.0
 
-_Apr 19, 2024_
+_Apr 26, 2024_
 
 ### Added
 
 - Made `listItem` key in `classes` API support callback function.
+
+### Fixed
+
+- Drop is canceled even though placeholder is visible.
 
 ## 3.4.4
 
